@@ -5,7 +5,7 @@ import java.util.*;
 public class Day1 {
 
 	public static void main(String[] args) {
-		String fileName = "/Users/yangengchen/Desktop/input.txt";
+		String fileName = "./input.txt";
 		List<Integer> list = readFromFileAndPopulateList(fileName);
 		puzzle1(list);
 		puzzle2(list);
