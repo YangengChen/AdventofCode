@@ -1,13 +1,14 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.time.LocalTime;
 import java.util.*;
 import java.util.Map.Entry;
 
 public class Day7 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day7.txt";
+		String fileName = "./input/2020/day7.txt";
 		Map<String, List<String>> map = readFileAndPopulateMap(fileName);
 		puzzle1(map);
 		puzzle2(map);

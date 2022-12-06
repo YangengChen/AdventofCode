@@ -1,3 +1,5 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -9,7 +11,7 @@ import java.util.Scanner;
 public class Day15 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day15.txt";
+		String fileName = "./input/2020/day15.txt";
 		List<String> list = readFileAndPopulateList(fileName);
 		calculateNth(list, 2020);
 		calculateNth(list, 30000000);

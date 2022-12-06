@@ -1,3 +1,5 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -5,7 +7,7 @@ import java.util.*;
 public class Day13 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day13.txt";
+		String fileName = "./input/2020/day13.txt";
 		List<String> list = readFileAndPopulateList(fileName);
 		Long timestamp = Long.parseLong(list.get(0));
 		Map<Integer, Integer> busIDs = getBusIDs(list.get(1));

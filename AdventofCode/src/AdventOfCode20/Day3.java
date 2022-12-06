@@ -1,3 +1,5 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.Scanner;
 public class Day3 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day3.txt";
+		String fileName = "./input/2020/day3.txt";
 		List<String> list = readFromFileAndPopulateList(fileName);
 		double slope1 = calculateTrees(list, 3, 1);
 		double slope2 = calculateTrees(list, 1, 1);

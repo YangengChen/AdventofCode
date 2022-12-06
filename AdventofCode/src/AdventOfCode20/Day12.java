@@ -1,3 +1,5 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.Scanner;
 public class Day12 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day12.txt";
+		String fileName = "./input/2020/day12.txt";
 		List<String> list = readFileAndPopulateList(fileName); 
 		Direction east = new Direction('E');
 		Direction north = new Direction('N');

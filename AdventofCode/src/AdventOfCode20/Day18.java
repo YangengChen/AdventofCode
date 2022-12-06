@@ -1,3 +1,5 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -5,7 +7,7 @@ import java.util.*;
 public class Day18 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day18.txt";
+		String fileName = "./input/2020/day18.txt";
 		List<String> list = readFileAndPopulateList(fileName);
 		puzzle1(list);
 		puzzle2(list);

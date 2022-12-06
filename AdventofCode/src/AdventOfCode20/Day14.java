@@ -1,3 +1,5 @@
+package AdventOfCode20;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -5,7 +7,7 @@ import java.util.*;
 public class Day14 {
 
 	public static void main(String[] args) {
-		String fileName = "./input/day14.txt";
+		String fileName = "./input/2020/day14.txt";
 		readFile(fileName); 
 	}
 	
